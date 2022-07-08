@@ -4,6 +4,7 @@ title:  "DF3"
 date:   2022-07-08 13:57:38 +0800
 categories: mate
 permalink: /posts/df3.html
+excerpt: 3A AC,DC, Pitch 2.0mm, 2-15PIN, 22-28AWG
 ---
 
 DF3 系列
