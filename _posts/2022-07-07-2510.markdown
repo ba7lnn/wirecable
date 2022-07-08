@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "2510"
+date:   2022-07-07 13:57:38 +0800
+categories: mate
+permalink: /posts/2510.html
+---
+
+2510
+
+[2510 spec](/assets/2510.pdf)
