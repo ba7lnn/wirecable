@@ -1,13 +1,9 @@
 <footer class="site-footer h-card">
-  <data class="u-url" href="{{ "/" | relative_url }}"></data>
+<div class="container">
+      <div class="row">
+        <div class="col-md-4">
 
-  <div class="wrapper">
-
-    <h2 class="footer-heading">{{ site.title | escape }}</h2>
-
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-        <ul class="contact-list">
+		<ul class="contact-list">
           <li class="p-name">
             {%- if site.author -%}
               {{ site.author | escape }}
@@ -18,30 +14,31 @@
             {%- if site.email -%}
             <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
             {%- endif -%}
+
+			<li>subscribe: <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></li>
         </ul>
+
+        </div>
+
+        <div class="col-md-4">
+          <p>Weibo: Hingtak Officis</p>
+        </div>
+
+        <div class="col-md-4">
+          <p>{{- site.description | escape -}}</p>
+        </div>
       </div>
 
-      <div class="footer-col footer-col-2">
-        {%- include social.html -%}
-      </div>
+	  <p class="rss-subscribe">&copy; 2022 Hingtak Products, Inc. </p>
 
-      <div class="footer-col footer-col-3">
-        <p>{{- site.description | escape -}}</p>
-      </div>
-    </div>
-
-  </div>
-
+    </div> <!-- /container -->
 </footer>
 
-<div class="container">
-<footer>
-	<p class="rss-subscribe">&copy; 2022 Hingtak Products, Inc. subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
-</footer>
-</div>
-	  
-	  
-<!-- jQuery (Bootstrap 的所有 JavaScript 插件都依赖 jQuery，所以必须放在前边) -->
-<script src="https://cdn.jsdelivr.cn/npm/jquery@1.12.4/dist/jquery.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
-<!-- 加载 Bootstrap 的所有 JavaScript 插件。你也可以根据需要只加载单个插件。 -->
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="{{site.url}}/assets/bootstrap/js/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="https://cdn.jsdelivr.cn/npm/@bootcss/v3.bootcss.com@1.0.43/assets/js/vendor/jquery.min.js"><\/script>')</script>
+<script src="{{site.url}}/assets/bootstrap/js/bootstrap.min.js"></script>
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+ <script src="https://cdn.jsdelivr.cn/npm/@bootcss/v3.bootcss.com@1.0.43/assets/js/ie10-viewport-bug-workaround.js"></script>
