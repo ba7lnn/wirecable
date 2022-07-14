@@ -1,44 +1,7 @@
-<footer class="site-footer h-card">
 <div class="container">
-      <div class="row">
-        <div class="col-md-4">
-
-		<ul class="contact-list">
-          <li class="p-name">
-            {%- if site.author -%}
-              {{ site.author | escape }}
-            {%- else -%}
-              {{ site.title | escape }}
-            {%- endif -%}
-            </li>
-            {%- if site.email -%}
-            <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-            {%- endif -%}
-
-			<li>subscribe: <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></li>
-        </ul>
-
-        </div>
-
-        <div class="col-md-4">
-          <p>Weibo: Hingtak Officis</p>
-        </div>
-
-        <div class="col-md-4">
-          <p>{{- site.description | escape -}}</p>
-        </div>
-      </div>
-
-	  <p class="rss-subscribe">&copy; 2022 Hingtak Products, Inc. </p>
-
-    </div> <!-- /container -->
+<footer class="site-footer h-card">	
+	<p class="rss-subscribe">&copy; 2022 Hingtak Products, Inc.<br /> 
+	<a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a> | subscribe: via <a href="{{ "/feed.xml" | relative_url }}">RSS</a>
+	</p>
 </footer>
-
-<!-- Bootstrap core JavaScript
-================================================== -->
-<!-- Placed at the end of the document so the pages load faster -->
-<script src="{{site.url}}/assets/bootstrap/js/jquery.min.js"></script>
-<script>window.jQuery || document.write('<script src="https://cdn.jsdelivr.cn/npm/@bootcss/v3.bootcss.com@1.0.43/assets/js/vendor/jquery.min.js"><\/script>')</script>
-<script src="{{site.url}}/assets/bootstrap/js/bootstrap.min.js"></script>
-<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
- <script src="https://cdn.jsdelivr.cn/npm/@bootcss/v3.bootcss.com@1.0.43/assets/js/ie10-viewport-bug-workaround.js"></script>
+</div> <!-- /container -->

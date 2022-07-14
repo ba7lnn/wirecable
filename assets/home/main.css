@@ -1,0 +1,55 @@
+html,body
+{
+	font-family: 'microsoft yahei',Arial, Helvetica, sans-serif;
+}
+body,dd,dl,h1,h2,h3,h4,h5,ol,p,ul
+{
+	margin: 0;
+}
+
+.container
+{
+	padding: 0 auto;
+}
+
+.login_ui {
+	height: 250px;
+	width: 300px;
+	margin: 10% auto 0 auto;
+}
+.container {
+	width: 98%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+a,a:link,a:visited {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #0066FF;
+}
+
+a:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #FF0000;
+	text-decoration: none;
+}
+
+
+.site-footer
+{
+	font-size: 9px;
+}
+
+.site-header
+{
+	padding-top: 5px;
+	margin-top: 5px;
+	border-bottom: 1px solid #ccc;
+}
+
+.h-card
+{
+	padding-top: 5px;
+	margin-top: 5px;
+	border-top: 1px solid #ccc;
+}
