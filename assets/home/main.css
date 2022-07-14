@@ -1,23 +1,17 @@
+/* reset */
 html,body
 {
 	font-family: 'microsoft yahei',Arial, Helvetica, sans-serif;
+	/* font-size: 62.5%; */
 }
 body,dd,dl,h1,h2,h3,h4,h5,ol,p,ul
 {
 	margin: 0;
 }
 
+/* style */
 .container
 {
-	padding: 0 auto;
-}
-
-.login_ui {
-	height: 250px;
-	width: 300px;
-	margin: 10% auto 0 auto;
-}
-.container {
 	width: 98%;
 	margin-right: auto;
 	margin-left: auto;
@@ -37,7 +31,6 @@ a:hover {
 
 .site-footer
 {
-	font-size: 9px;
 }
 
 .site-header
@@ -52,4 +45,21 @@ a:hover {
 	padding-top: 5px;
 	margin-top: 5px;
 	border-top: 1px solid #ccc;
+}
+
+.row
+{
+	padding-top: 5px;
+	margin-top: 5px;
+	padding-bottom: 5px;
+	margin-bottom: 5px;
+}
+
+.col-md-4
+{
+	padding-top: 5px;
+	margin-top: 5px;
+	padding-bottom: 5px;
+	margin-bottom: 5px;
+
 }
