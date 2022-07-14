@@ -20,6 +20,7 @@ DF3 HOUSING (DF3-H, A2005H-NP-N0BK-8801)
 
 * 2-15pin
 
+
 DF3 TERMINAL (DF3-T, A2005TF-PXX-8803)
 
 图纸 →　[DF3 端子](/assets/DF3-T.pdf)
