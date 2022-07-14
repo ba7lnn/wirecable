@@ -7,21 +7,21 @@ permalink: /posts/df3.html
 excerpt: 3A AC,DC, Pitch 2.0mm, 2-15PIN, 22-28AWG
 ---
 
-DF3 系列
+__DF3 系列__
 
 * 3A, AC,DC
 * -25℃ ~ 85℃
 * Pitch: 2.0mm
 
 
-DF3 HOUSING (DF3-H, A2005H-NP-N0BK-8801)
+__DF3 HOUSING (DF3-H, A2005H-NP-N0BK-8801)__
 
 图纸 →　[DF3 插座](/assets/DF3-H.pdf)
 
 * 2-15pin
 
 
-DF3 TERMINAL (DF3-T, A2005TF-PXX-8803)
+__DF3 TERMINAL (DF3-T, A2005TF-PXX-8803)__
 
 图纸 →　[DF3 端子](/assets/DF3-T.pdf)
 
