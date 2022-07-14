@@ -11,7 +11,7 @@ html, body{
 	font-family: 'microsoft yahei',Arial, Helvetica, sans-serif;	
 }
 
-body,dd,dl,h1,h2,h3,h4,h5,ol,p,ul
+body,dd,dl,h1,h2,h3,h4,h5
 {
 	margin: 0;
 }
@@ -58,6 +58,11 @@ a:hover {
 	text-decoration: none;
 }
 
+.footer-nav
+{
+	font-size: 1.5 rem;
+	color: #666666;
+}
 
 .site-footer
 {
@@ -77,7 +82,7 @@ a:hover {
 	font-size:1.4rem;
 }
 
-.h-card
+.footer-card
 {
 	padding-top: 5px;
 	margin-top: 5px;
@@ -96,8 +101,10 @@ a:hover {
 .post
 {
 	font-size: 1.5rem;
+	padding: 10px 0;
 }
-.dt-published
+
+.post .post-meta, .dt-published
 {
 	font-size: 1.2rem;
 	color: #ccc;

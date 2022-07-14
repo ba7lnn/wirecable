@@ -1,5 +1,24 @@
 <div class="container">
-<footer class="site-footer h-card">
+  <footer class="site-footer footer-card">
+    <div class="wrapper">
+    {%- assign default_paths = site.pages | map: "path" -%}
+    {%- assign page_paths = site.header_pages | default: default_paths -%}
+
+    {%- if page_paths -%}
+      <nav class="site-nav">
+        <div class="trigger">
+          {%- for path in page_paths -%}
+            {%- assign my_page = site.pages | where: "path", path | first -%}
+            {%- if my_page.title -%}
+            <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
+            {%- endif -%}
+          {%- endfor -%}
+        </div>
+      </nav>
+    {%- endif -%}
+	 </div>
+
+
 	  <p> Tel:(+86)137-2586-0789  Email: sales@hingtak.com Subscribe: via <a href="{{ "/feed.xml" | relative_url }}">RSS</a><br />
 	  &copy; 2022 HINGTAK PRODUCTS LLC. All rights reserved </p>
   </footer>
