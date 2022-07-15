@@ -9,15 +9,16 @@ github_username:  hingtak
 
 show_excerpts: true
 
+gem 'jekyll-paginate', group: :jekyll_plugins
 
 permalink: pretty
-#plugins:
-#  - jekyll-paginate
+plugins:
+  - jekyll-paginate
 #  - jekyll-sitemap
 #  - jekyll/tagging
 
-#paginate: 5
-#paginate_path: "/page/:num"
+paginate: 5
+paginate_path: "/page/:num"
 
 
 # Pages Path

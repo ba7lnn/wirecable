@@ -1,11 +1,32 @@
 ---
 layout: post
-title:  "2510"
+title:  MX 2510
 date:   2022-07-07 13:57:38 +0800
 categories: mate
 permalink: /posts/2510.html
+excerpt:  2510, pitch=2.5mm
+image:  02.jpg
+tags: 2510 2.5
 ---
 
-2510
+__DF3 系列__
+* 3A, AC,DC
+* -25℃ ~ 85℃
+* Pitch: 2.0mm
+__DF3 HOUSING (DF3-H, A2005H-NP-N0BK-8801)__
+图纸 →　[DF3 插座](/assets/DF3-H.pdf)
+* 2-15pin
+__DF3 系列__
+* 3A, AC,DC
+* -25℃ ~ 85℃
+* Pitch: 2.0mm
+
+
+__DF3 HOUSING (DF3-H, A2005H-NP-N0BK-8801)__
+图纸 →　[DF3 插座](/assets/DF3-H.pdf)
+
+* 2-15pin
+
+
 
 [2510 spec](/assets/2510.pdf)
