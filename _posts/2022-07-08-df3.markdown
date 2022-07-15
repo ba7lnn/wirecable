@@ -5,7 +5,7 @@ date:   2022-07-08 13:57:38 +0800
 category: hrs
 permalink: /posts/df3.html
 excerpt: 3A AC,DC, Pitch 2.0mm, 2-15PIN, 22-28AWG
-image:  02.jpg
+image:  DF3-6S-2C.jpg
 tags: df3 2.0
 ---
 
