@@ -1,6 +1,6 @@
 ﻿---
 layout: post 
-title: Mini-Fit Jr,Receptacle wire harness
+title: Mini-Fit Jr,Receptacle wire harness,4.2mm
 tags: MX40
 categories: wire-harness
 overview: 
