@@ -4,7 +4,6 @@
 
   .post-title {
     margin-bottom: 10px;
-    width: 500px;
     max-width: 100%;
     font-size: 57px;
     line-height: 70px;
@@ -98,6 +97,19 @@
 
 .post__content {
   margin-bottom: 40px;
+
+  table
+  {
+    width: 100%;
+    th
+    {
+      background-color: #f3f3f3;
+    }
+    th,td
+    {
+      border: solid 1px gray;
+    }
+  }
 }
 
 .post__share {
@@ -169,7 +181,7 @@
       
       a {
         display: inline-block;
-        max-width: 250px;
+        max-width: 350px;
         padding: 0 10px;
         vertical-align: middle;
         white-space: nowrap;
