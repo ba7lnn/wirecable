@@ -7,7 +7,7 @@ overview: PVC,1C WIRE, 28AWG,16AWG, TIN-PLANT
 series: FN10
 part_number: 10-1007-0
 thumb_img: 
-image: static/202105/5-20210603.jpg
+image: 2022/5-20210603.jpg
 date: 2018/5/5 7:04:11
 permalink: /wire-cable/ul1007-pvc-hookup-wire-80degc-300v.html
 ---

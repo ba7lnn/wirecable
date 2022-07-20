@@ -7,7 +7,7 @@ overview: UL Mimi Low smoke Hook-up wire
 series: FN10
 part_number: 10-3302-0
 thumb_img: static/202003/30-thumb-20200325145057.jpg
-image: static/202003/30-20200325145057.jpg
+image: 2022/30-20200325145057.jpg
 date: 2018/5/9 0:07:44
 permalink: /wire-cable/ul3302-mimi-low-smoke-hookup-wire.html
 ---

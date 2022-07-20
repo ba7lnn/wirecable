@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Style Guide
-permalink: /about/styleguide.html
+title: Contact
+permalink: /about/contact.html
 image: 08.jpg
 ---
 

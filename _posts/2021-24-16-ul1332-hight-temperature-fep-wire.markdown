@@ -7,7 +7,7 @@ overview:
 series: FN100
 part_number: 10-1332-01
 thumb_img: 
-image: static/202105/497-20210603.jpg
+image: 2022/497-20210603.jpg
 date: 2021/4/16 1:24:24
 permalink: /wire-cable/ul1332-hight-temperature-f46-fep-wire-200degc-300v.html
 ---

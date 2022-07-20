@@ -8,7 +8,7 @@ overview: Mini Hook-up wire,High-temperature
 series: FN
 part_number: 10-10064-0
 thumb_img: static/202001/35-thumb-20200101131853.jpg
-image: static/202001/35-20200101131853.jpg
+image: 2022/35-20200101131853.jpg
 date: 2018/5/9 2:22:06
 permalink: /wire-cable/ul10064-mini-hook-up-wire-high-temperature-105degc-30v.html
 ---
